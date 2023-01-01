@@ -17,6 +17,7 @@ int main()
     cin>>x;
     int ans=-1;
     
+    sort(v.begin(),v.end());
     int lo = 0, hi= n-1;
     while(lo<=hi)
     {
